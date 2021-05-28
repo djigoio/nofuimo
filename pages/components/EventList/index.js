@@ -9,6 +9,7 @@ const GET_ALL_EVENTS = gql`
       id
       title
       description
+      event_time
       header_image {
         url
       }

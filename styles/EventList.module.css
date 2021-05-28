@@ -1,0 +1,27 @@
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin: 15px auto;
+}
+
+.event{
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-box-shadow: 10px 10px 43px -30px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 43px -30px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 43px -30px rgba(0,0,0,0.75);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.event h3{
+    margin: 0;
+}
+
+.event span{
+    text-align: center;
+}
